@@ -1,0 +1,64 @@
+body {
+    width: 1200px;
+    margin: 15px auto;
+    background-image: url("./src/image/forest.jpg");
+}
+
+
+.container {
+    width: 500px;
+    margin: 0 auto;
+    
+}
+
+
+.form__order{
+height: 50px;
+display: flex;
+transform: skew(-30deg);
+
+}
+
+.button {
+    background-color: red;
+    color: white;
+    flex-grow: 1;
+    margin: 0;
+    padding: 0;
+    border: 0;   
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+.button:hover {
+    cursor: pointer;
+}
+
+.fa {
+    margin-right: 10px;
+}
+
+.input {
+    flex-grow: 2;
+    margin: 0;
+    padding: 10px;
+    border: 1;
+    background-color: rgb(214, 212, 212, 0.8);
+
+}
+
+
+@media screen and (max-width: 500px){
+  form {
+     margin: 15px auto;
+  }  
+    
+  .form__order {
+    transform: skew(0deg);
+  }
+  .container {
+      width: 300px;
+      margin: 0 auto;
+ }
+}
